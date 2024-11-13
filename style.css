@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: rgba(2, 80, 197, 0.644);
+}
+@media (max-width: 600px) {
+  .text > h2 {
+    font-size: 16px;
+  }
+  header > nav {
+    display: none;
+  }
+  .tuerca {
+    display: block;
+  }
+  .text {
+    width: 100%;
+    min-width: 0px;
+  }
+}
+.navl {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  list-style: none;
+}
+.tuerca {
+  display: none;
+  width: 25px;
+  height: 25px;
+}
+.cabecera {
+  background-color: rgba(2, 80, 197, 0.644);
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  height: 10vh;
+  font-size: 15px;
+}
+.listacabecera {
+  display: flex;
+  font-size: 15px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.cuerpo {
+  background-color: rgb(98, 152, 218);
+  display: flex;
+  align-items: center;
+  min-height: 70svh;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.text {
+  width: 35%;
+  min-width: 500px;
+}
+.imagen {
+  width: 30%;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 10px;
+}
+#imgp {
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 10px rgba(2, 80, 197, 0.644);
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  gap: 30px;
+  background-color: rgba(2, 80, 197, 0.644);
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  height: 15vh;
+}
+
+.contacto {
+  display: flex;
+  min-width: none;
+  padding: 10px;
+  gap: 50px;
+}
+
+a,
+li {
+  text-decoration: none;
+  color: aliceblue;
+}
+.admin > li:first-child,
+.taller > li:first-child {
+  font-weight: bolder;
+}
+.admin,
+.taller {
+  width: 100px;
+  list-style-type: none;
+}
+.patroc {
+  max-width: 200px;
+  gap: 20px;
+}
+.boton {
+  background-color: rgb(5, 53, 96);
+  color: aliceblue;
+  box-shadow: 10px 5px 10px rgba(32, 63, 125);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px 25px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  font-weight: bolder;
+  justify-content: center;
+}
+h1 {
+  color: aliceblue;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+}
+div {
+  padding: 5px;
+}
