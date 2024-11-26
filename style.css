@@ -5,36 +5,41 @@ body {
   min-height: 100vh;
   background-color: rgba(2, 80, 197, 0.644);
 }
-@media (max-width: 600px) {
+@media (max-width: 620px) {
+  .navl > ul {
+    display: none;
+  }
+  .cabecera > img {
+    display: block;
+  }
   .text > h2 {
     font-size: 16px;
   }
-  header > nav {
-    display: none;
-  }
-  .tuerca {
-    display: block;
+  .patroc4 > img {
+    max-width: 120px;
+    gap: 5px;
   }
   .text {
-    width: 100%;
+    width: 90%;
     min-width: 0px;
   }
 }
 .navl {
   display: flex;
   justify-content: space-evenly;
-  width: 60%;
   list-style: none;
 }
 .tuerca {
   display: none;
-  width: 25px;
-  height: 25px;
+  padding-left: 8%;
+  padding-top: 3%;
+  width: 65px;
+  height: 65px;
 }
 .cabecera {
   background-color: rgba(2, 80, 197, 0.644);
   display: flex;
-  padding: 5px;
+  padding: 1px;
   justify-content: space-between;
   height: 10vh;
   font-size: 15px;
@@ -42,7 +47,8 @@ body {
 .listacabecera {
   display: flex;
   font-size: 15px;
-  margin: 20px;
+  padding: 5px;
+  justify-content: space-between;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
 }
@@ -51,7 +57,7 @@ body {
   display: flex;
   align-items: center;
   min-height: 70svh;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 20px;
 }
@@ -60,27 +66,26 @@ body {
   min-width: 500px;
 }
 .imagen {
-  width: 30%;
+  padding: 5%;
   max-width: 400px;
   min-width: 300px;
-  margin: 10px;
+}
+
+footer {
+  left: 0;
+  width: 100%;
+  gap: 5%;
+  background-color: rgba(2, 80, 197, 0.644);
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20vh;
 }
 #imgp {
   max-width: 400px;
   border-radius: 20px;
   box-shadow: 10px 5px 10px rgba(2, 80, 197, 0.644);
-}
-
-footer {
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  gap: 30px;
-  background-color: rgba(2, 80, 197, 0.644);
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  height: 15vh;
+  margin: 10px;
 }
 
 .contacto {
@@ -106,7 +111,7 @@ li {
 }
 .patroc {
   max-width: 200px;
-  gap: 20px;
+  gap: 10px;
 }
 .boton {
   background-color: rgb(5, 53, 96);
